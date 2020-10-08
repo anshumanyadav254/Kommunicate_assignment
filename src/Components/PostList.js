@@ -31,7 +31,7 @@ class PostList extends Component {
     Data is Not showing here you can check in console i am fixing it... 
 
         {posts.length
-          ? posts.map((post) => <div key={post.id}>  Name - {post.data[0].first_name}{post.data.last_name} Email - {post.email } 
+          ? posts.map((post) => <div key={post.id}>  Name - {post.data.first_name}{post.data.last_name} Email - {post.email } 
           avtar - {post.data.avatar}</div>)
           : null}
         {errorMsg ? <div>{errorMsg}</div> : null}
