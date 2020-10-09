@@ -25,7 +25,7 @@ export default class FetchUser extends React.Component {
 
           <td>{user.first_name}</td>
           <td>{user.last_name}</td>
-      <td> <img src={user.avatar} /></td>
+      <td> <img alt={'anshu'}src={user.avatar} /></td>
           
         </tr>
       )
